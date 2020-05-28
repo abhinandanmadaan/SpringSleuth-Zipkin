@@ -1,0 +1,44 @@
+package com.springsleuth.demo.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapDemo {
+	
+	public static void main(String [] args) {
+		HashMap<Integer, String> mapOne = new HashMap<>();
+		mapOne.put(1, "One");
+		mapOne.put(2, "Two");
+		mapOne.put(3, "Three");
+		mapOne.put(4, "Four");
+		System.out.println(mapOne);
+		
+		Map<Integer, String> mapTwo = new HashMap<Integer, String>();
+		mapTwo.put(5, "Five");
+		mapTwo.put(6, "Six");
+		mapTwo.put(7, "Seven");
+		mapTwo.put(8, "Eight");
+		System.out.println(mapTwo);
+		
+		//remove method
+		
+		mapOne.remove(4);
+		System.out.println("after removal : "+mapOne);
+		
+		//get method
+		
+		System.out.println("using get method to get value of 2 : "+mapOne.get(2));
+		
+		//size method
+		
+		System.out.println("size of map 2 : "+mapTwo.size());
+		
+		//containsKey(k)
+		
+		System.out.println("checking contains key "+mapTwo.containsKey(7));
+		
+		//
+		
+	}
+
+}

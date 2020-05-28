@@ -1,0 +1,16 @@
+package com.springsleuth.demo.controller;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+	
+	public static void main(String [] args) {
+		HashMap<Integer, String> mapOne = new HashMap<>();
+		mapOne.put(1, "One");
+		mapOne.put(2, "Two");
+		mapOne.put(3, "Three");
+		mapOne.put(4, "Four");
+		System.out.println(mapOne);
+	}
+
+}

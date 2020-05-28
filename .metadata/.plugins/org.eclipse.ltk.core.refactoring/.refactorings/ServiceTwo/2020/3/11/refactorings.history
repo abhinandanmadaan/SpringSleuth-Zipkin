@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.springsleuth.demo.controller.ServiceOneController&apos; to &apos;ServiceTwoController&apos;&#x0A;- Original project: &apos;ServiceTwo&apos;&#x0A;- Original element: &apos;com.springsleuth.demo.controller.ServiceOneController&apos;&#x0A;- Renamed element: &apos;com.springsleuth.demo.controller.ServiceTwoController&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ServiceOneController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.springsleuth.demo.controller{ServiceOneController.java[ServiceOneController" matchStrategy="1" name="ServiceTwoController" qualified="false" references="true" similarDeclarations="false" stamp="1584065551665" textual="false" version="1.0"/>
+</session>

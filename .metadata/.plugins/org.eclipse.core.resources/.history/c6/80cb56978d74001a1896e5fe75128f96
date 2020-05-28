@@ -1,0 +1,9 @@
+package com.springsleuth.demo.controller;
+
+public class HashMapDemo {
+	
+	public static void main(String [] args) {
+		
+	}
+
+}

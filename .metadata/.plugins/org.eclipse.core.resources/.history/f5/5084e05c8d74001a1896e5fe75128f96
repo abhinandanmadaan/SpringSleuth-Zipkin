@@ -1,0 +1,9 @@
+package com.springsleuth.demo.controller;
+
+public class DemoClass {
+	
+	public static void main(String [] args) {
+		
+	}
+
+}
