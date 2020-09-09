@@ -1,6 +1,6 @@
 spring:
   application:
-    name: serviceThree
+    name: mainService
 
 server:
   port: 8082
